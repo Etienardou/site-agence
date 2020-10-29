@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* head */
+
+header {
+    background-color:darkslategrey;
+    
+     }
+
+body {
+
+    background-color:whitesmoke;
+
+}
+
+nav a {
+    text-decoration: none;
+          color: white;
+}
+
+nav a:hover {
+    color:teal;
+    text-decoration: none;
+  }
+
+nav { background: salmon;
+    float : left; 
+
+}
+
+ul{
+    list-style:none;
+}
+
+aside{
+    background:rgb(74,2,320);
+    float:right;font-size:1.2em;
+    width:580px;
+    border:solid;
+}
+
+footer {
+    background: grey;
+    clear: both;
+    height: 50px;
+    padding-top: 2em;
+    color: whitesmoke;
+}
+
+#conteneur {
+    display:flex;
+    justify-content: space-between; 
+    background:green;
+}
+
+section{
+    background-color:yellow;
+    color: white;
+}
+
+section header{
+    background:green;
+}
+
+.Commentaires {
+    background-color: violet;
+}
+
+/* style dans le conteneur */
+
